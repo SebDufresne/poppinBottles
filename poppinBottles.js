@@ -1,5 +1,5 @@
 const getArguments = () => {
-  return process.argv.slice(2);
+  return Number(process.argv.slice(2)[0]);
 };
 
 // Pass an amount of money as int and returns an object
@@ -80,11 +80,7 @@ const printSummary = summary => {
 };
 
 const poppinBottles = () => {
-  const arrAgg = getArguments();
-
-  const summary = calculateBottles(Number(arrAgg[0]));
-
-  printSummary(summary);
+  printSummary(calculateBottles(getArguments()));
 };
 
 poppinBottles();
