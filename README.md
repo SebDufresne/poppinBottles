@@ -14,7 +14,7 @@ In this exercise, we intend to build a function to help a grocery chain that put
 * For every four bottle caps, you get a free bottle (full)
 * Each bottle (full) costs $2 to purchase
 
-The function should be called from the command line with, for only argument, the amount of money initially put towards buying bottles.
+The function should be called from the command line with the amount of money initially put towards buying bottles.
 
 Once ran, the function should print a summary of the transaction:
 ```
