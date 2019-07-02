@@ -1,6 +1,6 @@
 # Problem Solving - Poppin Bottles
 
-A stretch activity from Lighthouse Labs (w01d5)
+A stretch activity from Lighthouse Labs (W01D5)
 
 ## Purpose
 
